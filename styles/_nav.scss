@@ -1,0 +1,37 @@
+@mixin flexCenter($spacing) {
+    display: flex;
+    justify-content: $spacing;
+    align-items: center;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    @include flexCenter(space-around);
+
+    // margin: 12px auto;
+
+    .navLinks {
+        list-style-type: none;
+        text-decoration: none;
+        color: black;
+
+        &:visited {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+nav {
+    height: 60px;
+    box-shadow: -4px 9px 5px -1px rgba(0, 0, 0, 0.37);
+    width: 100vw;
+    background-color: #ffc107;
+    margin: 0;
+    border: 2px #ffc107 solid;
+}

@@ -1,0 +1,16 @@
+@use './_nav.scss';
+@use './_variables.scss';
+
+// @import "./styles/_nav.scss";
+
+.contactBtn {
+    background-color: #fff;
+    color: black;
+    // border: $primaryBtn 2px solid;
+
+    &:hover {
+        color: #fff;
+        // background-color: $primaryBtn;
+        font-weight: 500;
+    }
+}
