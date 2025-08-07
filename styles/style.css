@@ -27,6 +27,11 @@ nav {
   border: 2px #ffc107 solid;
 }
 
+p {
+  font-family: Arial;
+  font-size: 1.2rem;
+}
+
 .contactBtn {
   background-color: #fff;
   color: black;
